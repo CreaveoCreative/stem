@@ -1,0 +1,473 @@
+
+.top{
+    background-image: url('../img/top.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+.butt{
+    background-image: url(../img/keyboard.jpg);
+    background-position: center left;
+    background-color: #4abdac;
+    text-align: left;
+    padding: 100px 0;
+    color: #fff;
+}
+/* .container-fluid.top {
+      width: 100%;
+      height: 500px;
+      position: relative;
+    }
+.container-fluid.butt {
+      width: 100%;
+      height: 300px;
+      position: relative;
+    }
+.container-fluid .other-content {
+    position: absolute;
+    z-index: 2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.container-fluid .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+.container-fluid .slide.show {
+    opacity: 1;
+}
+
+.container-fluid .slide-2 {
+      z-index: 1;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 100%;
+      transition: opacity 1s ease-in-out;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+    }
+.container-fluid .slide-2.show {
+    opacity: 1;
+} */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-size: 16px
+}
+a:hover{
+    text-decoration: none;
+}
+
+.spacer{
+    height: 80px;
+}
+.divider{
+    border-left-style: solid;
+    border-left-color: #808080;
+    height: 100px;
+}
+.center-all{
+    text-align: center
+}
+footer{
+    background-color: #d1d1d1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.help-more{
+    background-color: #4abdac;
+    text-align: center;
+    color: white;
+    padding: 75px 0;
+}
+.other-ways-to-help{
+    background-color: #f2f2f2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.stemHeader{
+    color: #f7882f;
+}
+.green-header{
+    /* color: #409e90; */
+    color: #f7882f;
+}
+.green-button{
+    background-color: #4abdac;
+    color: #fff;
+    padding: 7px 40px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+}
+.transparent-button{
+    background-color: transparent;
+    border: .5px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.stem-donate-button{
+    display: inline-block;
+    padding: 5px 30px;
+    background-color: #f7882f;
+    color: white;
+    border: 1px solid #f7882f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.stem-donate-button-2{
+    display: inline-block;
+    padding: 5px 30px;
+    background-color: #f7882f;
+    color: white;
+    border: 1px solid #f7882f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.stem-button{
+    display: inline-block;
+    padding: 7px 40px;
+    background-color: #f7882f;
+    color: white;
+    border: 1px solid #f7882f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.stem-button-2{
+    display: inline-block;
+    padding: 7px 40px;
+    background-color: #696969;
+    color: white;
+    border: 1px solid #696969;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.stem-donate-button:hover{
+    text-decoration: none;
+    color: white
+}
+.stem-button:hover{
+    text-decoration: none;
+    color: #696969;
+}
+.but-white{
+    display: inline-block;
+    padding: 5px 30px;
+    background-color: #ffffff;
+    color: #4abdac;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.but-white:hover{
+    text-decoration: none;
+    color: #f7882f
+}
+.style-input{
+    background-color: transparent;
+    display: block;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #696969;
+    width: 100%;
+    padding-bottom: 7px;
+}
+
+/* Index */
+.landing-1, .landing-2, .landing-3, .landing-4, .landing-5{
+    /* background-image: url(../img/stemhub3a.jpg); */
+    background-size: cover;
+    background-position: top;
+    color: white;
+    background-color: #4abdac;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+.landing-1{
+    background-image: url(../img/stemhub3a.jpg)
+}
+.landing-2{
+    background-image: url(../img/stemhub10a.jpg)
+}
+.landing-3{
+    background-image: url(../img/STEM-1_9.jpg)
+}
+.landing-4{
+    background-image: url(../img/sm30.jpg)
+}
+.landing-5{
+    background-image: url(../img/sm29.jpg)
+}
+
+.landing p{
+    font-size: 22px !important;
+}
+.stemhub-mission{
+    background-color: #4abdac;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+}
+.index-bottom-1, .index-bottom-2, .index-bottom-3, .index-bottom-4, .index-bottom-5{
+    margin-bottom: 75px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.index-bottom-1{
+    background-image: url(../img/6.jpg)
+}
+.index-bottom-2{
+    background-image: url(../img/stemhub10a.jpg)
+}
+.index-bottom-3{
+    background-image: url(../img/stemhub8a.jpg)
+}
+.index-bottom-4{
+    background-image: url(../img/sm1.jpg)
+}
+.index-bottom-5{
+    background-image: url(../img/sm25.jpg)
+}
+.vol{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-color: #f7882f;
+    text-align: center;
+}
+.slider-3{
+    padding-top: 75px;
+}
+
+
+/* STEMstars view */
+.ss-landing{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: maroon;
+    background-image: url(../img/s16.jpg);
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+.ss-work-1{
+    text-align: right;
+}
+
+/* Contact */
+.amazing-impact{
+    background-image: url(../img/STEM-1_7.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: white;
+}
+
+/* About page*/
+.about-landing{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-size: cover;
+    color: white;
+    background-image: url(../img/steming.jpg);
+    background-position: center;
+    background-color: #f7882f;
+}
+
+/* Steming */
+.s-landing{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(../img/steming.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.who-can-request img{
+    width: 90px;
+}
+.steming-bottom{
+    height: 400px;
+    background-image: url(../img/stemhub3a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Program */
+.program-landing{
+    background-image: url(../img/svol.jpg);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+.sponsors img{
+    margin-right: 15px;
+}
+
+.foot-img{
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dot2{
+    margin-left: 10px;
+}
+.dot{
+    text-align: center;
+}
+
+.vol-land{
+    background-image: url(../img/volland.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #f7882f;
+    color: #fff;
+}
+.instagram{
+    padding: 75px 0;
+    text-align: center;
+}
+
+.volunteer{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.donate-footer{
+    text-align: center;
+    color: #fff;
+    background-color: #f7882f;
+    padding: 75px 0;
+}
+.vol-close{
+    padding: 100px 0;
+    background-image: url(../img/voll.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f7882f;
+    color: #fff;
+}
+.fa-check{
+    color: #4abdac;
+}
+.event{
+    background-image: url(../img/sh1.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 200px 0;
+    background-color: #4abdac;
+    color: #fff;
+}
+.les-event{
+    padding: 100px 0;
+}
+.event1{
+    background-image: url(../img/svol.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.event2{
+    background-image: url(../img/blu.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.desc1{
+    padding: 50px 0;
+    background-color: #4abdac;
+    color: #fff;
+}
+.desc2{
+    padding: 50px 0;
+    background-color: #009fe3;
+    color: #fff;
+}
+.req-workshop{
+    background-color: #4abdac;
+    color: #fff;
+    text-align: center;
+    padding: 75px 0;
+}
+
+@media (max-width: 576px) {
+    .footer-links{
+        text-align: center;
+    }
+    .foot-img{
+        width: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dot{
+        text-align: center;
+    }
+    .divider{
+        border-left-style: none;
+        height: 20px;
+    }
+    .dot2{
+        text-align: center;
+    }
+    .about{
+        text-align: center;
+    }
+    .sm-img{
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 30px;
+    }
+    .ss-work-1{
+        text-align: left;
+    }
+}
