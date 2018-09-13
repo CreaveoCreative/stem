@@ -136,3 +136,10 @@
     background-size: cover;
     background-position: center;
 }
+.scholar{
+    background-image: url('../img/scholar.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+}
