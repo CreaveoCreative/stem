@@ -462,6 +462,9 @@ nav{
     .dot2{
         text-align: center;
     }
+    .margin-up{
+        margin-top: 50px;
+    }
     .about{
         text-align: center;
     }
