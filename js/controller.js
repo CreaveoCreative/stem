@@ -38,6 +38,9 @@ stemHub.config(['$routeProvider', '$locationProvider', function ($routeProvider,
             .when('/stemscholar', {
                 templateUrl: 'views/stemscholar.html'
             })
+            .when('/contributor', {
+                templateUrl: 'views/contributor.html'
+            })
             .otherwise({ redirectTo: '/' });
 
             $locationProvider.html5Mode(true).hashPrefix('!');

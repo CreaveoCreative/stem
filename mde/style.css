@@ -143,3 +143,10 @@
     padding: 150px 0;
     color: #fff;
 }
+.contrib{
+    background-image: url('../img/contrib.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+}
